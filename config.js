@@ -48,7 +48,7 @@ config = {
         mail: {},
         database: {
              client: 'postgres',
-             connection: process.env.DATABASE_URL
+             connection: process.env.DATABASE_URL,
              debug: false
         },
         server: {
